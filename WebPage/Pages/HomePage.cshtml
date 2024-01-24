@@ -1,0 +1,87 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitap Satış Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        div {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <h1>Kitap Satış Sayfası</h1>
+            </header>
+            <section>
+                <h2>En Çok Satanlar</h2>
+                <!-- En çok satan kitapları listeleyen bir bölüm -->
+                <div>
+                    <h3>Kitap Adı 1</h3>
+                    <p>Açıklama ve diğer bilgiler...</p>
+                    <p>Fiyat: $19.99</p>
+                    <button type="button">Sepete Ekle</button>
+                </div>
+
+                <div>
+                    <h3>Kitap Adı 2</h3>
+                    <p>Açıklama ve diğer bilgiler...</p>
+                    <p>Fiyat: $24.99</p>
+                    <button type="button">Sepete Ekle</button>
+                </div>
+            </section>
+        </div>
+    </form>
+</body>
+</html>
